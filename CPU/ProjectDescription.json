@@ -1,0 +1,150 @@
+{
+  "ProjectName": "CPU",
+  "DLSVersion_LastSaved": "2.1.6",
+  "DLSVersion_EarliestCompatible": "2.0.0",
+  "CreationTime": "2026-03-20T21:26:28.143-03:00",
+  "LastSaveTime": "2026-03-29T21:10:34.428-03:00",
+  "Prefs_MainPinNamesDisplayMode": 0,
+  "Prefs_ChipPinNamesDisplayMode": 2,
+  "Prefs_GridDisplayMode": 1,
+  "Prefs_Snapping": 2,
+  "Prefs_StraightWires": 0,
+  "Prefs_SimPaused": false,
+  "Prefs_SimTargetStepsPerSecond": 1000,
+  "Prefs_SimStepsPerClockTick": 250,
+  "AllCustomChipNames":[
+    "AND",
+    "NOT",
+    "OR",
+    "XOR",
+    "ADDER",
+    "4-BIT ADDER",
+    "NOR",
+    "D LATCH",
+    "REGISTER",
+    "4-BIT REGISTER",
+    "8-BIT REGISTER",
+    "8-BIT ADDER",
+    "8-BIT ADD SUB",
+    "7 SEG DRIVER",
+    "2-BIT MULTIPLIER",
+    "4-BIT MULTIPLIER",
+    "8-BIT UP-DOWN SHIFTER",
+    "8-BIT MULTIPLIER",
+    "16-BIT ADDER",
+    "8-BIT DIVISOR - F",
+    "1-BIT MUX (2-1)",
+    "8-BIT ADD SUB - I8",
+    "7 SEG DRIVER + DP",
+    "4-BIT MUX (2-1)",
+    "8-BIT MUX (2-1)",
+    "8-BIT MUX - I8",
+    "8-BIT REGISTER - I8",
+    "8-BIT DIVISOR2 - F",
+    "8BIT - SUB",
+    "ALU - OLD",
+    "NAND-8",
+    "XOR-8",
+    "NAND-8-8",
+    "XOR-8-8",
+    "8-BIT MUX (2-1) I8",
+    "8-BIT MUX (7-7) I8",
+    "OR-8-8",
+    "OR-8 - I8",
+    "1-BIT MUX (2-2)",
+    "TEST ALU",
+    "OR-4",
+    "BLANKING DRIVE",
+    "DABBLE",
+    "DOUBLE DABBLE",
+    "3-DISPLAY",
+    "3-DISPLAY - I8",
+    "ALU",
+    "1-BIT SUB-RES",
+    "8-BIT CAS",
+    "8-BIT DIVISOR",
+    "8-BIT CAS - I8",
+    "D FLIP-FLOP",
+    "8-BIT MUX (3-3) I8"
+  ],
+  "StarredList":[
+    {
+      "Name":"TEST ALU",
+      "IsCollection":false
+    },
+    {
+      "Name":"ALU",
+      "IsCollection":false
+    },
+    {
+      "Name":"8-BIT REGISTER",
+      "IsCollection":false
+    },
+    {
+      "Name":"8-BIT REGISTER - I8",
+      "IsCollection":false
+    }
+  ],
+  "ChipCollections":[
+    {
+      "Chips":["CLOCK","PULSE","KEY","3-STATE BUFFER"],
+      "IsToggledOpen":true,
+      "Name":"BASIC"
+    },
+    {
+      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8"],
+      "IsToggledOpen":true,
+      "Name":"IN/OUT"
+    },
+    {
+      "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
+      "IsToggledOpen":true,
+      "Name":"MERGE/SPLIT"
+    },
+    {
+      "Chips":["BUS-1","BUS-4","BUS-8"],
+      "IsToggledOpen":true,
+      "Name":"BUS"
+    },
+    {
+      "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY","LED","7 SEG DRIVER","7 SEG DRIVER + DP","BLANKING DRIVE","3-DISPLAY","3-DISPLAY - I8","DOUBLE DABBLE","DABBLE"],
+      "IsToggledOpen":true,
+      "Name":"DISPLAY"
+    },
+    {
+      "Chips":["ROM 256×16"],
+      "IsToggledOpen":false,
+      "Name":"MEMORY"
+    },
+    {
+      "Chips":["BUZZER","8-BIT UP-DOWN SHIFTER","8-BIT DIVISOR - F","8-BIT DIVISOR2 - F","ALU - OLD","TEST ALU","ALU","1-BIT SUB-RES","8-BIT CAS","8-BIT DIVISOR","8-BIT CAS - I8","D FLIP-FLOP","8-BIT MUX (3-3) I8"],
+      "IsToggledOpen":true,
+      "Name":"OTHER"
+    },
+    {
+      "Chips":["2-BIT MULTIPLIER","4-BIT MULTIPLIER","8-BIT MULTIPLIER"],
+      "IsToggledOpen":true,
+      "Name":"MULTIPLIER"
+    },
+    {
+      "Chips":["D LATCH","REGISTER","4-BIT REGISTER","8-BIT REGISTER","8-BIT REGISTER - I8"],
+      "IsToggledOpen":true,
+      "Name":"REGISTER"
+    },
+    {
+      "Chips":["OR-4","OR-8 - I8","OR-8-8","XOR-8-8","NAND-8-8","XOR-8","NAND-8","AND","NOT","NAND","OR","NOR","XOR"],
+      "IsToggledOpen":true,
+      "Name":"PORTS"
+    },
+    {
+      "Chips":["8BIT - SUB","8-BIT ADD SUB - I8","ADDER","4-BIT ADDER","8-BIT ADDER","8-BIT ADD SUB","16-BIT ADDER"],
+      "IsToggledOpen":true,
+      "Name":"ADD-SUB"
+    },
+    {
+      "Chips":["8-BIT MUX (2-1) I8","8-BIT MUX (7-7) I8","1-BIT MUX (2-2)","8-BIT MUX - I8","1-BIT MUX (2-1)","4-BIT MUX (2-1)","8-BIT MUX (2-1)"],
+      "IsToggledOpen":true,
+      "Name":"MULTIPLEXER"
+    }
+  ]
+}

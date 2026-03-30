@@ -1,0 +1,21 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "2-BIT UP SHIFTER",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 2.075,
+    "y": 2.5
+  },
+  "Colour": {
+    "r": 0.3719889,
+    "g": 0.0685140938,
+    "b": 0.236807823,
+    "a": 1
+  },
+  "InputPins":[],
+  "OutputPins":[],
+  "SubChips":[],
+  "Wires":[],
+  "Displays": null
+}
